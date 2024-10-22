@@ -107,3 +107,34 @@ footer{
     margin: 80px;
     text-align: center;   
 }
+
+@media (max-width:780px) {
+
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(254, 255, 174);
+        background-image: url(imagens/sol-5169509_960_720.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .container{
+        height: 350px;
+        width: 370px;
+        overflow: hidden;
+        position: relative;
+        /* top: 50%; */
+        left: 50%;
+        transform: translate(-50%);
+        border-radius: 15px;
+    
+    }
+
+    footer{
+        font-family: Arial, sans-serif;
+        margin: 100px;
+        text-align: center;   
+    }
+
+}
